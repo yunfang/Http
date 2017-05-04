@@ -15,25 +15,11 @@
         android:layout_height="wrap_content"
         android:text="Hello World!" />
 
-    <LinearLayout
+    <Button
+        android:id="@+id/id_bu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/id_dialog"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/id_bu"
-            android:text="dialog"/>
-
-        <Button
-            android:id="@+id/id_bu_three"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="bu3"/>
-    </LinearLayout>
-
-
+        android:text="hah"
+        />
 </RelativeLayout>
